@@ -4,7 +4,7 @@ metadata:
   name: django-argo-application
   namespace: argocd
 spec:
-  project: mydjango-project
+  project: default
 
   source:
     repoURL: https://github.com/selimatmaca/K8sConfiguration.git
