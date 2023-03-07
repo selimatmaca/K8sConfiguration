@@ -18,7 +18,7 @@ spec:
 
       containers:
       - name: app
-        image: selimica/django-web-app:latest
+        image: selimica/django-web-app:60
         volumeMounts: 
         - mountPath: "/static"
           name: staticfiles
