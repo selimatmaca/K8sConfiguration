@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/selimatmaca/K8sConfiguration.git
     targetRevision: HEAD
-    path: /
+    
   destination:
     server: https://kubernetes.default.svc
     #this is the namespace where we will apply our configuration
